@@ -8,7 +8,7 @@ public class Exercicio1Test {
 
     @Test
     public void zeroValueShouldReturnOne() {
-        Assertions.assertEquals(0, Exercicio1.fatorial(0L));
+        Assertions.assertEquals(1, Exercicio1.fatorial(0L));
     }
 
     @Test
